@@ -3,6 +3,7 @@ const morgan = require('morgan')
 const app= express();
 const cors = require('cors')
 
+
 //para que re.body no entregue Undefined como respuesta del post solicitado
 app.use(express.json());
 app.use(cors());
